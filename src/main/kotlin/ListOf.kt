@@ -5,7 +5,7 @@ fun main(args:Array<String>){
     println("Fourth element: ${numbers[3]}")
     println("Index of element \"two\" ${numbers.indexOf("two")}")
 
-//Elemen daftar (termasuk nol) dapat diduplikasi
+    //Elemen daftar (termasuk nol) dapat diduplikasi
     val bob = Person("Bob", 31)
     val people = listOf<Person>(Person("Adam", 20), bob, bob)
     val people2 = listOf<Person>(Person("Adam", 20), Person("Bob", 31), bob)
